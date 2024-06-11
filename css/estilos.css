@@ -1,0 +1,150 @@
+body {
+	padding-left: 13em;
+	font-family: georgia, "times new roman",
+		times, serif;
+	color:white;
+	background-color: black}
+ul.navbar {
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+	position: absolute;
+	top: 2em;
+	left: 1em;
+	width: 9em; }
+h1 {
+	font-family: helvetica, geneva, arial,  
+			sunSans-regular, sans-serif }
+ul.navbar li { 
+	background: red;
+	margin: 0.5em 0;
+	padding: 0.3em;
+	border-right: 1em solid white }
+ul.navbar a {
+	text-decoration: none }
+a:link {
+	color: red}
+a:visited {
+	color: white }
+address {
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: thin dotted }
+	
+	.img-container {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+.img-container img{
+		width:100%;
+}
+
+p {
+position: -webkit-sticky; 
+position: sticky;
+top: 0px; 
+background-color:red;
+padding: 20px;
+font-weight: bold;
+}
+ul{margin: 20px 0;}
+li{padding-left: 20px;}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: "calibri light";
+}
+
+.contenedor{
+	background: grey;
+	width: 80%;
+	margin:0 auto;
+
+}
+
+header{
+	height:300px;
+	background-image: url("../img/motocross.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+main .perfil{
+    width:150px;
+    height: 150px;
+    background:black;
+    margin:-70px auto 30px auto;
+    border:6px solid #000000;
+    border-radius: 50%;
+}
+
+
+
+main .perfil img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+main .text{
+    width:100%;
+    height: 200px;
+    text-align: center;
+}
+
+.boton a{
+		background:teal;
+		text-decoration: none; /*quita subrayado*/
+		color:white;
+		font-size:18px;
+		display:inline-block;
+		padding: 15px 10px;
+		border-radius:5px;	
+		width:100px;
+		margin:0 auto;
+		text-align:center;
+	}
+	
+	.boton a:hover{
+		background:red;
+	}
+	
+
+
+footer{
+    background: black;
+}	
+	
+	
+	
+	
+	
+	
+	.boton a{
+		background:teal;
+		text-decoration: none; /*quita subrayado*/
+		color:black;
+		font-size:18px;
+		display:inline-block;
+		padding: 15px 10px;
+		border-radius:5px;	
+		width:100px;
+		margin:0 auto;
+		text-align:center;
+	}
+	
+	.boton a:hover{
+		background:red;
+	}
+	
+	
